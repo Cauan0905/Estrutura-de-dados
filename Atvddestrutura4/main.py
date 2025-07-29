@@ -79,13 +79,13 @@ if __name__ == "__main__":
     lista = ListaEncadeada()
 
     print("Lista vazia?")
-    print(lista.esta_vazia())  # True
+    print(lista.esta_vazia())  
 
     print("\nInserindo valores...")
     lista.inserir(1, 7)
     lista.inserir(2, 10)
     lista.inserir(3, 27)
-    lista.inserir(2, 9)  # Inserir no meio
+    lista.inserir(2, 9) 
     lista.imprimir()  
 
     print("\nTamanho da lista:", lista.tamanho())  
